@@ -23,6 +23,9 @@
 	<class name="mocap_pose_estimate" type="mavros::extra_plugins::MocapPoseEstimatePlugin" base_class_type="mavros::plugin::PluginBase">
 		<description>Send motion capture pose estimate to FCU.</description>
 	</class>
+	<class name="moment_control" type="mavros::extra_plugins::MomentControlPlugin" base_class_type="mavros::plugin::PluginBase">
+		<description>Send desired moments to FCU.</description>
+	</class>
 	<class name="obstacle_distance" type="mavros::extra_plugins::ObstacleDistancePlugin" base_class_type="mavros::plugin::PluginBase">
 		<description>Send obstacle distance report to the FCU.</description>
 	</class>

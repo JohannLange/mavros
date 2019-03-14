@@ -74,6 +74,7 @@ add_library(mavros_extras
   src/plugins/gps_rtk.cpp
   src/plugins/log_transfer.cpp
   src/plugins/mocap_pose_estimate.cpp
+  src/plugins/moment_control.cpp
   src/plugins/obstacle_distance.cpp
   src/plugins/odom.cpp
   src/plugins/px4flow.cpp
