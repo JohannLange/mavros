@@ -19,7 +19,7 @@
 #include <mavros_msgs/MomentControl.h>
 
 namespace mavros {
-namespace std_plugins {
+namespace extra_plugins {
 /**
  * @brief Manual Control plugin
  */
@@ -65,4 +65,4 @@ private:
 }	// namespace mavros
 
 #include <pluginlib/class_list_macros.h>
-PLUGINLIB_EXPORT_CLASS(mavros::std_plugins::MomentControlPlugin, mavros::plugin::PluginBase)
+PLUGINLIB_EXPORT_CLASS(mavros::extra_plugins::MomentControlPlugin, mavros::plugin::PluginBase)
