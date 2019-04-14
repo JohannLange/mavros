@@ -45,13 +45,13 @@ private:
 
 	ros::Subscriber send_sub;
 
+	mavlink::common::msg::MOMENT_CONTROL msg;
+	//msg.target = m_uas->get_tgt_system();
 
 	/* -*- callbacks -*- */
 
 	void send_cb(const mavros_msgs::MomentControl::ConstPtr req)
 	{
-		mavlink::common::msg::MOMENT_CONTROL msg;
-		//msg.target = m_uas->get_tgt_system();
 
 		msg.roll    = req->roll;
 		msg.pitch   = req->pitch;
